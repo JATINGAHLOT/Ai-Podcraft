@@ -16,15 +16,14 @@ email_from = "thehelpisuhfohs"
 email_list = ["e21oisidhfsohf"]
 
 # Define the password (better to reference externally)
-pswd = "s[\[oishjfos]]" # As shown in the video this password is now dead, left in as example only
-
+pswd = "s[\[oishjfos]]" 
 
 # name the email subject
 subject = "Wait is over. Here is your Podcast"
 
 
 
-# Define the email function (dont call it email!)
+# Define the email function 
 def send_emails(email):
 
     for person in email:
